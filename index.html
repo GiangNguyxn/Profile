@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile</title>
+        <link rel="stylesheet" href="index.css">
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body id="background">
+        <main>
+                <header>
+                        <img src="img/logo.jpg" alt="">
+                        <h1>@Giangchuate</h1>
+                </header>
+
+                <ul>
+                        <li><a href="https://www.facebook.com/giangchuate03/"><i class='bx bxl-facebook-circle'></i>Facebook</a></li>
+                        <li><a href="https://www.tiktok.com/@nng060903"><i class='bx bxl-tiktok'></i>Tiktok</a></li>
+                        <li><a href="https://github.com/"><i class='bx bxl-github'></i>Github</a></li>
+                        <li><a href="https://www.instagram.com/nng03_/"><i class='bx bxl-instagram'></i>Instagram</a></li>
+
+                </ul>
+        </main>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
+        <script>
+                VANTA.HALO({
+                        el: "#background",
+                        mouseControls: true,
+                        touchControls: true,
+                        gyroControls: false,
+                        minHeight: 300.00,
+                        minWidth: 300.00,
+                        scale: 1.00,
+                        scaleMobile: 1.00,
+                        color: 0xd1ff,
+                        backgroundColor: 0x180839,
+                        points: 12.00,
+                        maxDistance: 25.00,
+                        spacing: 17.00
+                });
+                setTimeout(() => {
+                        const main = document.querySelector('main');
+                        main.style.opacity = 1
+                        main.style.filter = 'blur(0px)'
+                },1500)
+
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+*{
+        padding: 0px;
+        margin: 0px;
+}
+main {
+        position: relative;
+        opacity: 0;
+        filter: blur(10px);
+        transition: opacity 1s ease-in-out ,filter 2s ease-in-out;
+}
+header {
+        text-align: center;
+}
+
+header>img {
+        width: 5em;
+        height: 5em;
+        margin-top: 20px;
+        border-radius: 100%;
+        border: 1px solid gray;
+       
+}
+
+header>h1 {
+        color: white;
+        font-size: x-large;
+        padding: 10px;
+        font-style: oblique;
+ 
+      
+
+}
+ul{
+        max-width: 680px;
+        margin: 0 auto;
+}
+ul>li {
+        background-color: #fffa;
+        backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+        -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+        list-style: none;
+        border: 1px solid gray;
+        padding:  20px ;
+        border-radius: 50px;
+        margin: 20px ;
+}
+
+ul>li>a {
+        display: inline-block;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-size:20px;
+}
+#background{
+        position: absolute;
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top:0;
+}
+.bxl-facebook-circle{
+        color: rgb(40, 40, 245);
+        font-size: 30px;
+}
+.bxl-tiktok{
+
+        font-size: 30px;
+}
+.bxl-github{
+
+        font-size: 30px;
+}   
+.bxl-instagram{
+        font-size: 30px;
+        color: #FF9D31;
+}    
